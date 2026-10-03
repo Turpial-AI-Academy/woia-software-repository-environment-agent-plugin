@@ -1,0 +1,23 @@
+{
+  "schema": "dev.woia.provider-manifest/v1",
+  "version": "0.5.0",
+  "authoring_profile": "thin",
+  "department": "software",
+  "capability": "repository-environment",
+  "skill": "repository-environment",
+  "source_lineage": {
+    "repository": "Turpial-AI-Academy/repository-environment-agent-plugin",
+    "version": "1.0.1",
+    "commit": "3c2adecf1703d97323943bde3785dfb6bd11087c"
+  },
+  "migrated_portable_paths": [
+    "skills/repository-environment/SKILL.md",
+    "skills/repository-environment/assets/README.md",
+    "skills/repository-environment/assets/mise.bun.template.toml",
+    "skills/repository-environment/assets/mise.node-pnpm.template.toml",
+    "skills/repository-environment/references/DECISION_MATRIX.md",
+    "skills/repository-environment/references/IMPLEMENTATION_CHECKLIST.md",
+    "skills/repository-environment/references/README.md",
+    "skills/repository-environment/references/REPOSITORY_ENVIRONMENT_STANDARD.md"
+  ]
+}

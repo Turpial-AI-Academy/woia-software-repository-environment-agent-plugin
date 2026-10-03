@@ -1,0 +1,30 @@
+# Example only. Adapt to repository evidence.
+[settings]
+lockfile = true
+
+[tools]
+bun = "<BUN_VERSION>"
+
+[tasks.bootstrap]
+description = "Install project dependencies"
+run = "bun install --frozen-lockfile"
+
+[tasks.dev]
+description = "Start development"
+run = "bun run dev"
+
+[tasks.doctor]
+description = "Validate the repository environment"
+run = "bun run doctor"
+
+[tasks.test]
+description = "Run tests"
+run = "bun test"
+
+[tasks.quality]
+description = "Run the complete quality gate"
+run = "bun run quality"
+
+[tasks.build]
+description = "Create the production build"
+run = "bun run build"

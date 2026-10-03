@@ -1,0 +1,31 @@
+# Example only. Adapt to repository evidence.
+[settings]
+lockfile = true
+
+[tools]
+node = "<NODE_VERSION>"
+pnpm = "<PNPM_VERSION>"
+
+[tasks.bootstrap]
+description = "Install project dependencies"
+run = "pnpm install --frozen-lockfile"
+
+[tasks.dev]
+description = "Start development"
+run = "pnpm dev"
+
+[tasks.doctor]
+description = "Validate the repository environment"
+run = "node scripts/doctor.mjs"
+
+[tasks.test]
+description = "Run tests"
+run = "pnpm test"
+
+[tasks.quality]
+description = "Run the complete quality gate"
+run = "pnpm quality"
+
+[tasks.build]
+description = "Create the production build"
+run = "pnpm build"

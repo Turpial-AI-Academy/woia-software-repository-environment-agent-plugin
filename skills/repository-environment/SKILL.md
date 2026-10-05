@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works with repositories on Windows, Linux, and macOS; validation depends on the target repository's actual tools and services.
 metadata:
   author: Turpial AI Academy
-  version: "0.5.0"
+  version: "0.5.1"
 ---
 
 # repository-environment

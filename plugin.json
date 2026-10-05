@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "woia-software-repository-environment",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Audits and establishes reproducible repository development environments while preserving healthy existing standards.",
   "author": {
     "name": "Turpial AI Academy",
